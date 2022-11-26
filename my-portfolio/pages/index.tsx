@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Nav from './components/Nav'
 
 function IndexPage() {
   return (
@@ -8,9 +10,11 @@ function IndexPage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <h1 className='text-4xl underline'>Hello world!</h1>
+      <main>
+        <Nav/>
+
+      </main>
     </div>
   )
 }
-
 export default IndexPage
