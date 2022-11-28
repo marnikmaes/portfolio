@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function IndexPage() {
   return (
@@ -12,6 +13,9 @@ function IndexPage() {
 
       <main>
         <Nav/>
+        <Footer/>
+
+
 
       </main>
     </div>
