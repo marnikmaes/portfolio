@@ -14,7 +14,7 @@ function Nav() {
 
     return(
         <nav className="bg-gray-100">
-            <div className="max-w-screen mx-auto px-5 h-6">
+            <div className="max-w-screen mx-auto px-5 h-[20px]">
                 <div className="flex justify-between">
                     <div className="flex items-center space-x-1">
                         <Link href={"/"}> 
