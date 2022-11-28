@@ -12,7 +12,7 @@ function Footer(){
                             <Image src={"/images/MM-logo.png"} alt={"Logo Marnik"} width={200} height={200}></Image> 
                         </div>
                         <div className='hidden xl:block'>
-                            <h1 className='text-lg font-Roboto font-semibold'>"Life is not a game of luck. If you wanne win, work hard." - Sora &#40;No Game No Life&#41;</h1>
+                            <h1 className='text-lg font-Roboto font-semibold'>&#34;Life is not a game of luck. If you wanne win, work hard.&#34; &#45; Sora &#40;No Game No Life&#41;</h1>
                         </div>
                         <div className="flex-none w-52">
                             <div className='flex flex-col justify-between space-y-2 items-center'>
