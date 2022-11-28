@@ -6,7 +6,7 @@ function Footer(){
     return (
         <div className="absolute w-full overflow-hidden z-10">
             <div className="relative inset-y-0 bottom-0 z-10 ">
-                <footer className="bg-emerald-200 m-auto h-auto z-10">
+                <footer className="bg-gray-100 border border-black m-auto h-auto z-10">
                     <div className="flex justify-between items-center md:px-[50px] md:py-[10px] py-5 px-0 z-40">
                         <div>
                             <Image src={"/images/MM-logo.png"} alt={"Logo Marnik"} width={200} height={200}></Image> 
