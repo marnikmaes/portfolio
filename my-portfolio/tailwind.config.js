@@ -6,7 +6,11 @@ module.exports = {
     "./nonPageComponents/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "Roboto" : ["Roboto", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
