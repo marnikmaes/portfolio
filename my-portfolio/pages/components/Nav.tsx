@@ -13,7 +13,7 @@ function Nav() {
       }
 
     return(
-        <nav className="bg-gray-100">
+        <nav className="bg-gray-100 border border-black">
             <div className="max-w-screen mx-auto px-5 h-[20px]">
                 <div className="flex justify-between">
                     <div className="flex items-center space-x-1">
