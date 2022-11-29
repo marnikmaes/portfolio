@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "customWhite": "#F1F1F1",
-        "customBlue": "#1C6E8C",
+        "customWhite": "#D9D9D9",
+        "customBlue": "#345160",
         "customBlack": "#051014",
-        "customPurple": "#914D76",
+        "customPurple": "#624768",
+        "customGreen": "#00B188",
       },
       fontFamily: {
         "Roboto" : ["Roboto", "sans-serif"],
