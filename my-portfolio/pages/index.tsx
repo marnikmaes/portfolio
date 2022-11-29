@@ -13,7 +13,7 @@ function IndexPage() {
         <link rel="icon" href="images/MM-favicon.png"/>
       </Head>
 
-      <main>
+      <main className='bg-customWhite'>
         <Nav/>
 
         <div className="flex flex-wrap-reverse justify-center items-center py-11">
