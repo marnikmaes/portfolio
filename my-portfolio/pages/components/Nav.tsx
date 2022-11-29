@@ -13,13 +13,13 @@ function Nav() {
       }
 
     return(
-        <nav className="bg-gray-100 border border-black">
+        <nav className="bg-customBlue border border-black">
             <div className="max-w-screen mx-auto px-5 h-[20px]">
                 <div className="flex justify-between">
                     <div className="flex items-center space-x-1">
                         <Link href={"/"}> 
                             <Image className='inline' src={"/images/MM-logo.png"} alt={"Logo Marnik"} width={100} height={100}></Image> 
-                            <span className='hidden md:inline-block text-2xl font-bold font-Roboto'>Portfolio Marnik Maes</span>
+                            <span className='hidden md:inline-block text-2xl font-bold font-Roboto text-customWhite'>Portfolio Marnik Maes</span>
                         </Link>
                     </div>
                     <div className="hidden lg:flex items-center space-x-1 text-xl">
