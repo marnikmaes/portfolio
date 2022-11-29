@@ -22,7 +22,7 @@ function Nav() {
                             <span>Portfolio Marnik Maes</span> 
                         </Link>
                     </div>
-                    <div className="hidden lg:flex items-center space-x-1 text-xl border rounded-3xl bg-customWhite">
+                    <div className="hidden px-5 lg:flex items-center space-x-1 text-xl border rounded-3xl bg-customWhite">
                         <NavItem name="HOME" href="/" />
                         <NavItem name="ABOUT ME" href="/" />
                         <NavItem name="PROJECTS" href="/" />
