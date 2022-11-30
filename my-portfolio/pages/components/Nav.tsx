@@ -38,7 +38,7 @@ function Nav() {
             <div className="py-10 pt-[100px]">
                 <div className={`mobile-menu ${mobileNav ? "" : "hidden"}`}>
                     <NavItem name="Home" href="/" mobile={true} />
-                    <NavItem name="About me" href="/" mobile={true} />
+                    <NavItem name="About me" href="/Aboutme" mobile={true} />
                     <NavItem name="My projects" href="/" mobile={true} />
                     <NavItem name="Contact me" href="/" mobile={true} />
                 </div>
