@@ -13,6 +13,9 @@ module.exports = {
         "customBlack": "#051014",
         "customPurple": "#624768",
         "customGreen": "#00B188",
+        "skyBlue":"#0B3F64",
+        "waterBlue":"#057B9F",
+        "towerBlue":"#003992",
       },
       fontFamily: {
         "Roboto" : ["Roboto", "sans-serif"],
