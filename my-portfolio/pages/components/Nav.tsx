@@ -24,7 +24,7 @@ function Nav() {
                     </div>
                     <div className="hidden px-5 lg:flex items-center space-x-1 text-xl font-Roboto font-semibold border rounded-2xl bg-customWhite">
                         <NavItem name="Home" href="/" />
-                        <NavItem name="About me" href="/" />
+                        <NavItem name="About me" href="/Aboutme" />
                         <NavItem name="My projects" href="/" />
                         <NavItem name="Contact me" href="/" />
                     </div>

@@ -16,8 +16,8 @@ function Footer(){
                         </div>
                         <div className="flex-none w-[50px] pt-5">
                             <div className='flex flex-col justify-between space-y-2 items-center'>
-                                <Link href={"/"}><Icon className='text-customWhite hover:text-waterBlue' icon="material-symbols:mail-rounded" width={40} height={40}/></Link>
-                                <Link href={"/"}><Icon className='text-customWhite hover:text-waterBlue' icon="mdi:github" width={40} height={40}/></Link>
+                                <Link href={"/"}><Icon className='text-customWhite hover:text-waterBlue ' icon="material-symbols:mail-rounded" width={40} height={40}/></Link>
+                                <Link href={"/"}><Icon className='text-customWhite hover:text-waterBlue ' icon="mdi:github" width={40} height={40}/></Link>
                                 <Link href={"/"}><Icon className='text-customWhite hover:text-waterBlue' icon="mdi:twitter" width={40} height={40}/></Link>
                                 <Link href={"/"}><Icon className='text-customWhite hover:text-waterBlue' icon="mdi:linkedin" width={40} height={40}/></Link>
                             </div>
