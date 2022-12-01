@@ -22,7 +22,7 @@ function IndexPage() {
           <h1 className='text-5xl font-Roboto font-semibold'>About me</h1>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center">
+        <div className="flex flex-wrap justify-center items-center py-6 md:pb-[100px]">
           <Image className="object-cover rounded-full" src={"images/Marnik-Maes.png"} alt={"Marnik Maes"} width={300} height={300}/>
           <h1 className='text-2xl font-Roboto py-6 px-[40px] text-center'>My name is <span className='font-bold italic'>Marnik Maes</span>, a second-year student studying <span className='font-bold italic'>Digital Innovation</span> at Thomas More Geel. <br/> <span className='font-bold italic'>I always strive to improve my technology skills on every level!</span></h1>
         </div>

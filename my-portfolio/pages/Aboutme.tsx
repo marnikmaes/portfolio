@@ -29,7 +29,7 @@ function Aboutme() {
           <h1 className='text-5xl font-Roboto font-semibold'>My studies</h1>
         </div>
         <div className='py-6 flex flex-col justify-around items-center m-auto sm:w-[200px] md:w-[500px] lg:w-[900px] text-customWhite text-lg text-center font-Roboto'>
-          <div>In my<span className='font-semibold italic'>first and second year of high school</span>, I studied <span className='font-semibold italic'>industrial science STEM</span> at &#39;t peperstraatje located in Geel. 
+          <div>In my <span className='font-semibold italic'> first and second year of high school</span>, I studied <span className='font-semibold italic'>industrial science STEM</span> at &#39;t peperstraatje located in Geel. 
             STEM is short for Science, Technology, Engineering and Mathematics.</div>
           <div><Icon className='text-blue-300' icon="material-symbols:arrow-downward" width={100} height={100}/></div>
           <div>In my <span className='font-semibold italic'>third and fourth year of high school</span>, I studied <span className='font-semibold italic'>Mechatronics sciences</span> at Sint Jozen in Geel. This focused on both electronics and mechanics.</div>
