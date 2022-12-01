@@ -33,11 +33,10 @@ function Aboutme() {
           <div><Icon className='text-blue-400' icon="material-symbols:arrow-downward" width={80} height={150}/></div>
           <div>In my <span className='font-semibold italic'>fifth and sixth year of high school</span>, I studied <span className='font-semibold italic'>Electronics and ICT</span> at Sint Jozen in Geel. Here I learned all the basics about coding in multiple languages such as: Python, C++, Labview, Codesys and more. Here I also learned the basics about networking, electronics, code debugging and other viable knowledge for every IT person</div>
           <div><Icon className='text-blue-600' icon="material-symbols:arrow-downward" width={80} height={150}/></div>
-          <div>In my <span className='font-semibold italic'>first year of college</span>, I studied the Dutch version of <span className='font-semibold italic'>Applied computer science</span>. Here I relearned the basics I'd already picked up in high school, but also expanded my horizons mainly in Networking, Cloud and Cyber security related subjects, IoT and web development</div>
+          <div>In my <span className='font-semibold italic'>first year of college</span>, I studied the Dutch version of <span className='font-semibold italic'>Applied computer science</span>. Here I relearned the basics I&#39;d already picked up in high school, but also expanded my horizons mainly in Networking, Cloud and Cyber security related subjects, IoT and web development</div>
           <div><Icon className='text-blue-800' icon="material-symbols:arrow-downward" width={80} height={150}/></div>
-          <div> <span className='font-semibold italic'>Currently I'm in my second year of college studying Digital Innovation</span>. Here I'm learning how to work independently on IT related projects. Getting the opportunity to work independently on projects instead of sitting in class the entire day is truly in my opinion the best way to find what suits you and most importantly find the thing that you love to do! </div>
+          <div> <span className='font-semibold italic'>Currently I&#39;m in my second year of college studying Digital Innovation</span>. Here I&#39;m learning how to work independently on IT related projects. Getting the opportunity to work independently on projects instead of sitting in class the entire day is truly in my opinion the best way to find what suits you and most importantly find the thing that you love to do! </div>
         </div>
-
       </main>
       <Footer/>
     </div>
