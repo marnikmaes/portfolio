@@ -20,6 +20,9 @@ module.exports = {
       fontFamily: {
         "Roboto" : ["Roboto", "sans-serif"],
       },
+      screens: {
+        'xs': '320px',
+      },
     },
   },
   plugins: [],
