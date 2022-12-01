@@ -17,6 +17,9 @@ function Aboutme() {
 
       <main className="text-customWhite z-10">
         <Nav/>
+        <div>
+            
+        </div>
       </main>
       <Footer/>
     </div>
