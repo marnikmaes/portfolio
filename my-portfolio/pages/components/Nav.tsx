@@ -26,7 +26,7 @@ function Nav() {
                         <NavItem name="Home" href="/" />
                         <NavItem name="About me" href="/Aboutme" />
                         <NavItem name="My projects" href="/" />
-                        <NavItem name="Contact me" href="/" />
+                        <NavItem name="Contact me" href="/Contactme" />
                     </div>
                     <div className="lg:hidden flex items-center px-3 pr-5">
                         <button className="mobile-menu-button" onClick={toggleMobile}>
@@ -40,7 +40,7 @@ function Nav() {
                     <NavItem name="Home" href="/" mobile={true} />
                     <NavItem name="About me" href="/Aboutme" mobile={true} />
                     <NavItem name="My projects" href="/" mobile={true} />
-                    <NavItem name="Contact me" href="/" mobile={true} />
+                    <NavItem name="Contact me" href="/Contactme" mobile={true} />
                 </div>
             </div>
 
