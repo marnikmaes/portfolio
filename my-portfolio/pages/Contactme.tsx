@@ -17,6 +17,15 @@ function Contactme() {
 
       <main className="bg-customBlack text-customWhite font-Roboto z-10 px-5 md:px-0">
         <Nav/>
+
+        <div className='text-center xl:text-left xl:ml-[200px] py-6'>
+          <h1 className='text-5xl font-Roboto font-semibold'>Questions?</h1>
+        </div>
+
+        <div className='text-center'>
+          <p className='text-2xl'>Contact form will be shown here &#40;Not ready yet&#41;</p>
+        </div>
+
         
         <div className='text-center xl:text-left xl:ml-[200px] py-6'>
           <h1 className='text-5xl font-Roboto font-semibold'>Wanna friendly chat?</h1>
