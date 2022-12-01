@@ -9,7 +9,7 @@ function Aboutme() {
   return (
     <div>
       <Head>
-        <title>Portfolio Marnik Maes - Home</title>
+        <title>Portfolio Marnik Maes - About me</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         <link rel="icon" href="images/MM-favicon.png"/>
       </Head>
