@@ -15,7 +15,7 @@ function IndexPage() {
 
       <div className="bg-[url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] fixed z-1 block  h-full inset-0 "></div>
 
-      <main className="text-customWhite z-10">
+      <main className="text-customWhite z-10 px-5 md:px-0 font-Roboto">
         <Nav/>
 
         <div className='text-center xl:text-left xl:ml-[200px] py-6 '>
