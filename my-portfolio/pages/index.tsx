@@ -29,7 +29,7 @@ function IndexPage() {
 
         <div className='text-center xl:text-right xl:mr-[200px] py-6'>
             <Link href={"/Aboutme"}>
-              <button className="font-semibold py-2 px-4 border-2 rounded-full border-customBlack w-[200px] bg-customWhite text-customBlack hover:text-waterBlue">
+              <button className="font-semibold py-2 px-4 border-[3px] rounded-full border-towerBlue w-[200px] bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite">
                 Read More  
               </button>
             </Link>
@@ -50,7 +50,7 @@ function IndexPage() {
                   <h5 className='mb-2 text-2xl font-Roboto font-semibold tracking-tight text-customWhite dark:text-customWhite'>Jumping Fox game</h5>
                 </Link>
                 <p className='mb-3 font-normal text-customWhite dark:text-customWhite'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, delectus.</p>
-                <Link className='inline-flex items-center px-3 py-2 rounded-lg text-md font-Roboto font-semibold text-center text-customBlack bg-customWhite hover:text-waterBlue' href={"/"}>
+                <Link className='inline-flex items-center px-3 py-2 border-[2px] border-towerBlue rounded-lg text-md font-Roboto font-semibold text-center bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite' href={"/"}>
                   Read More
                 </Link>
               </div>
@@ -67,7 +67,7 @@ function IndexPage() {
                   <h5 className='mb-2 text-2xl font-Roboto font-semibold tracking-tight text-customWhite dark:text-customWhite'>Jumping Fox game</h5>
                 </Link>
                 <p className='mb-3 font-normal text-customWhite dark:text-customWhite'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, delectus.</p>
-                <Link className='inline-flex items-center px-3 py-2 rounded-lg text-md font-Roboto font-semibold text-center text-customBlack bg-customWhite hover:text-waterBlue' href={"/"}>
+                <Link className='inline-flex items-center px-3 py-2 border-[2px] border-towerBlue rounded-lg text-md font-Roboto font-semibold text-center bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite' href={"/"}>
                   Read More
                 </Link>
               </div>
@@ -84,7 +84,7 @@ function IndexPage() {
                   <h5 className='mb-2 text-2xl font-Roboto font-semibold tracking-tight text-customWhite dark:text-customWhite'>Jumping Fox game</h5>
                 </Link>
                 <p className='mb-3 font-normal text-customWhite dark:text-customWhite'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, delectus.</p>
-                <Link className='inline-flex items-center px-3 py-2 rounded-lg text-md font-Roboto font-semibold text-center text-customBlack bg-customWhite hover:text-waterBlue' href={"/"}>
+                <Link className='inline-flex items-center px-3 py-2 border-[2px] border-towerBlue rounded-lg text-md font-Roboto font-semibold text-center bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite' href={"/"}>
                   Read More
                 </Link>
               </div>
@@ -93,7 +93,7 @@ function IndexPage() {
 
         </div>
         <div className='text-center xl:text-right xl:mr-[200px] py-6'>
-          <button className="font-semibold py-2 px-4 border-2 rounded-full border-customBlack w-[200px] bg-customWhite text-customBlack hover:text-waterBlue">
+          <button className="font-semibold py-2 px-4 border-[2px] rounded-full border-towerBlue w-[200px] bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite">
             All projects  
           </button>
         </div>

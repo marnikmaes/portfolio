@@ -13,8 +13,8 @@ const NavItem = (props: MyProps) => {
         passHref
         className={`${
             props.mobile
-            ? "font-Roboto text-customWhite flex flex-col py-4 justify-around text-center text-2xl hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue"
-            : "font-Roboto text-customBlack py-5 px-3 hover:underline hover:underline-offset-8 hover:text-waterBlue hover:decoration-towerBlue"
+            ? "font-Roboto font-semibold text-customWhite flex flex-col py-4 justify-around text-center text-2xl hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue"
+            : "font-Roboto font-semibold text-customWhite text-2xl py-5 px-3 hover:underline hover:underline-offset-8 hover:text-waterBlue hover:decoration-towerBlue"
         }`}
         >
         {props.name}
