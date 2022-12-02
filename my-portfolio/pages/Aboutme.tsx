@@ -82,7 +82,7 @@ function Aboutme() {
         </div>
 
         <div className='py-6 m-auto sm:w-[200px] md:w-[500px] lg:w-[1200px] text-customWhite text-lg font-Roboto'>
-          <p className='pb-3'>Over the years I've picked up on quite a few skills in both hardware and software.</p>
+          <p className='pb-3'>Over the years I&#39;ve picked up on quite a few skills in both hardware and software.</p>
           <p>Some of my skills are:</p>
           <ul className='list-disc list-inside pl-[30px] text-left'>
             <li>Game development in Unreal Engine</li>
