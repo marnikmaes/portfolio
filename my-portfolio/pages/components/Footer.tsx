@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Footer(){
     return (
-        <div className="absolute w-full overflow-hidden z-10">
+        <div className="sticky top-[100vh] w-full overflow-hidden z-10">
             <div className="relative inset-y-0 bottom-0 z-10 ">
                 <footer className="bg-skyBlue m-auto h-auto z-10">
                     <div className="flex flex-wrap justify-around items-center space-x-4 md:space-x-0 md:px-[50px] md:py-[10px] px-5 z-40">

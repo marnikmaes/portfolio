@@ -13,10 +13,13 @@ function Projects() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         <link rel="icon" href="images/MM-favicon.png"/>
       </Head>
-      <main className="bg-customBlack text-customWhite font-Roboto z-10 px-5 md:px-0">
-        <Nav/>
-      </main>
-      <Footer/>
+
+      <div className='min-h-screen'>
+        <main className="bg-customBlack text-customWhite font-Roboto z-10 px-5 md:px-0">
+          <Nav/>
+        </main>
+        <Footer/>
+      </div>
     </div>
   );
 };
