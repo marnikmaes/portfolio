@@ -39,7 +39,7 @@ function IndexPage() {
           <h1 className='text-5xl font-Roboto font-semibold'>Some of my projects</h1>
         </div>
 
-        <div className='pt-6 flex flex-wrap justify-around space-y-[50px] md:space-y-0 md:max-w-[1500px] m-auto'>
+        <div className='pt-6 flex flex-wrap justify-around space-y-[50px] md:space-y-0 md:max-w-[1720px] m-auto'>
           <div className='md:py-8'>
             <div className='max-w-sm bg-customWhite rounded-lg shadow-lg dark:bg-skyBlue dark:border-skyBlue'>
               <Link className='' href={"/"}>
