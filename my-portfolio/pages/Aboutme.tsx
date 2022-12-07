@@ -14,9 +14,8 @@ function Aboutme() {
         <link rel="icon" href="images/MM-favicon.png"/>
       </Head>
 
-      <div className="bg-customBlack xl:bg-[url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=2000&t=st=1670401340~exp=1670401940~hmac=00b0ab701b3009d502016df7b06fa5079e9e0284809a7698ee42e855df8f3937')] fixed z-1 block  h-full inset-0 "></div>
       <div className='min-h-screen'>
-        <main className="text-customWhite z-10 px-5 md:px-0 font-Roboto">
+        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite">
           <Nav/>
 
           <div className='text-center xl:text-left xl:ml-[200px] pt-6'>
@@ -83,7 +82,7 @@ function Aboutme() {
             <h1 className='text-5xl font-Roboto font-semibold'>My skills</h1>
           </div>
 
-          <div className='py-6 pb-[200px] m-auto sm:w-[200px] md:w-[500px] lg:w-[1200px] text-customWhite text-lg font-Roboto'>
+          <div className='py-6 m-auto sm:w-[200px] md:w-[500px] lg:w-[1200px] text-customWhite text-lg font-Roboto'>
             <p className='pb-3'>Over the years I&#39;ve picked up on quite a few skills in both hardware and software.</p>
             <p>Some of my skills are:</p>
             <ul className='list-disc list-inside pl-[30px] text-left'>

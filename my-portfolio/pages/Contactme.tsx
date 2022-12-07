@@ -15,9 +15,8 @@ function Contactme() {
         <link rel="icon" href="images/MM-favicon.png"/>
       </Head>
 
-      <div className="bg-customBlack xl:bg-[url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=2000&t=st=1670401340~exp=1670401940~hmac=00b0ab701b3009d502016df7b06fa5079e9e0284809a7698ee42e855df8f3937')] fixed z-1 block  h-full inset-0 "></div>
       <div className='min-h-screen'>
-        <main className="text-customWhite z-10 px-5 md:px-0 font-Roboto">
+        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite">
           <Nav/>
           <div className='text-center xl:text-left xl:ml-[200px] py-6'>
             <h1 className='text-5xl font-Roboto font-semibold'>Formal contact?</h1>
