@@ -23,10 +23,10 @@ function Nav() {
                         </Link>
                     </div>
                     <div className="hidden px-5 lg:flex items-center space-x-1">
-                        <NavItem name="Home" href="/" />
-                        <NavItem name="About me" href="/Aboutme" />
-                        <NavItem name="My projects" href="/" />
-                        <NavItem name="Contact me" href="/Contactme" />
+                        <NavItem name="Home" href="/"/>
+                        <NavItem name="About me" href="/Aboutme"/>
+                        <NavItem name="My projects" href="/Projects"/>
+                        <NavItem name="Contact me" href="/Contactme"/>
                     </div>
                     <div className="lg:hidden flex items-center px-3 pr-5">
                         <button className="mobile-menu-button" onClick={toggleMobile}>
@@ -39,7 +39,7 @@ function Nav() {
                 <div className={`mobile-menu ${mobileNav ? "" : "hidden"}`}>
                     <NavItem name="Home" href="/" mobile={true} />
                     <NavItem name="About me" href="/Aboutme" mobile={true} />
-                    <NavItem name="My projects" href="/" mobile={true} />
+                    <NavItem name="My projects" href="/Projects" mobile={true} />
                     <NavItem name="Contact me" href="/Contactme" mobile={true} />
                 </div>
             </div>
