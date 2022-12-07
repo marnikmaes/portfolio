@@ -16,7 +16,7 @@ function Projects() {
 
       
       <div className='min-h-screen'>
-        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite">
+        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite pb-[50px]">
           <Nav/>
         </main>
         <Footer/>

@@ -16,7 +16,7 @@ function Contactme() {
       </Head>
 
       <div className='min-h-screen'>
-        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite">
+        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite pb-[50px]">
           <Nav/>
 
           <div className='text-center xl:text-left xl:ml-[200px] py-6 '>

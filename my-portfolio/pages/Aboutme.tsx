@@ -15,7 +15,7 @@ function Aboutme() {
       </Head>
 
       <div className='min-h-screen'>
-        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite">
+        <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite pb-[50px]">
           <Nav/>
           <div className='flex flex-wrap justify-around items-center'>
 
