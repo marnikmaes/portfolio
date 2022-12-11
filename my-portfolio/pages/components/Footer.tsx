@@ -28,7 +28,7 @@ function Footer(){
                                     <p className='font-Roboto font-semibold text-2xl py-2 text-customWhite '>&#45;</p>
                                     <Link className='font-Roboto font-semibold text-2xl py-2 px-5 text-customWhite hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'/Aboutme'}>About me</Link>
                                     <p className='font-Roboto font-semibold text-2xl py-2 text-customWhite'>&#45;</p>
-                                    <Link className='font-Roboto font-semibold text-2xl py-2 px-5 text-customWhite hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'/Projects'}>My projects</Link>
+                                    <Link className='font-Roboto font-semibold text-2xl py-2 px-5 text-customWhite hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'/Myprojects'}>My projects</Link>
                                     <p className='font-Roboto font-semibold text-2xl py-2 text-customWhite'>&#45;</p>
                                     <Link className='font-Roboto font-semibold text-2xl py-2 px-5 text-customWhite hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'/Contactme'}>Contact me</Link>
                                 </div>
