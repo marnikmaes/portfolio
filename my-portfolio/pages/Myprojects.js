@@ -7,6 +7,7 @@ import { Icon } from '@iconify/react';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import Project from '../nonPageComponents/Project'
 
 export default function Myprojects({projects}) {
     console.log(projects);
@@ -27,15 +28,13 @@ export default function Myprojects({projects}) {
                         <h1 className='text-5xl font-Roboto font-semibold'>My projects</h1>
                     </div>
 
-                    <div className='projects'>
+                    <div className='projects flex flex-wrap justify-around'>
                         {projects.map((projects, index) => (
                             <div key={index} className='project'>
-                                <h3>{projects.frontmatter.title}</h3>
+                                <Project project={projects}/>
                             </div>
                         ))}
-
                     </div>
-                    
                 </main>
                 <Footer/>
             </div>
