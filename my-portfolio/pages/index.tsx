@@ -93,9 +93,9 @@ function IndexPage() {
 
         </div>
         <div className='text-center xl:text-right xl:mr-[200px] py-6'>
-          <button className="font-semibold py-2 px-4 border-[2px] rounded-full border-towerBlue w-[200px] bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite">
+          <Link href={'/Myprojects'} className="font-semibold py-2 px-4 border-[2px] rounded-full border-towerBlue w-[200px] bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite">
             All projects  
-          </button>
+          </Link>
         </div>
       </main>
 
