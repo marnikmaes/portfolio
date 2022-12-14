@@ -18,7 +18,7 @@ function Myprojects(){
                     
                     <div className='flex flex-wrap justify-around items-center px-5 space-y-6'>
 
-                        <Link href={'/'} className='bg-skyBlue rounded-xl p-5 hover:bg-waterBlue w-[1000px]'>
+                        <Link href={'/projects/Diwebsite'} className='bg-skyBlue rounded-xl p-5 hover:bg-waterBlue w-[1000px]'>
                             <div className='flex flex-wrap md:flex-nowrap justify-between items-center space-x-5 space-y-5'>
                                 <Image className='rounded-xl basis-2/6' src={'/images/projects/diwebsite/DI-website.png'} alt='di website' width={400} height={400}></Image>
                                 <div className='basis-4/6'>
