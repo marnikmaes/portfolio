@@ -24,7 +24,7 @@ function Diwebsite() {
                         </div>
                         <Image className='object-contain rounded-2xl m-auto' src="/images/projects/diwebsite/DI-website.png" alt="website" width={800} height={800}/>
 
-                        <div>
+                        <div className='w-[300px] m-auto md:w-fit'>
                             <div className='text-center xl:text-left xl:ml-[200px] py-10'>
                                 <h1 className='text-5xl font-Roboto font-semibold'>About the project</h1>
                             </div>
@@ -35,7 +35,7 @@ function Diwebsite() {
                             </p>
                         </div>
 
-                        <div>
+                        <div className='w-[300px] m-auto md:w-fit'>
                             <div className='text-center py-10'>
                                 <h1 className='text-5xl font-Roboto font-semibold'>About the website</h1>
                             </div>
@@ -43,25 +43,17 @@ function Diwebsite() {
                             <p className='text-lg'>
                                 The class got split up into two separate teams. The back-end and the front-end team, I ended up in the front-end team.
                                 This means producing HTML, CSS and JavaScript for the website including design, colors, fonts, etc.
+                                Some of the things I helped with are: helping with the design, creating navbar and footer, creating the project search function, 
+                                creating the inquary portal, API for coffee counter and helping with the space invader game.
                             </p>
-                            <ul className='text-lg list-disc'> Some of the things that I created:
-                                <div className='pl-0 md:pl-10'>
-                                    <li>Helping with the design</li>
-                                    <li>Creating navbar and footer</li>
-                                    <li>Creating the project search function</li>
-                                    <li>Creating the inquary portal</li>
-                                    <li>Reading the api route for the coffee counter</li>
-                                    <li>Helping with the space invader game</li>
-                                </div>
-                            </ul>
                         </div>
 
                         <div>
                             <div className='text-center py-10'>
                                 <h1 className='text-5xl font-Roboto font-semibold'>Links</h1>
                             </div>
-                            <div className='text-lg'>Github repo: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://github.com/Thomas-More-Digital-Innovation/2223-Startproject-DinoWebsite'}>https://github.com/Thomas-More-Digital-Innovation/2223-Startproject-DinoWebsite</Link></div>
-                            <div className='text-lg'>Website: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://digitalinnovation.be/'}>https://digitalinnovation.be/</Link></div>
+                            <div className='text-lg text-left pb-5'>Github repo: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://github.com/Thomas-More-Digital-Innovation/2223-Startproject-DinoWebsite'}>https://github.com/Thomas-More-Digital-Innovation/2223-Startproject-DinoWebsite</Link></div>
+                            <div className='text-lg text-left'>Website: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://digitalinnovation.be/'}>https://digitalinnovation.be/</Link></div>
 
                         </div>
                     </div>
