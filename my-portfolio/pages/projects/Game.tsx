@@ -88,10 +88,12 @@ function Game() {
                             <div className='text-center py-10'>
                                 <h1 className='text-5xl font-Roboto font-semibold'>Links</h1>
                             </div>
-                            <div className='text-lg'>Github repo: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://github.com/Thomas-More-Digital-Innovation/2223-MOBI-009-Game-voor-kinderen-met-beperking-MM'}>https://github.com/Thomas-More-Digital-Innovation/2223-MOBI-009-Game-voor-kinderen-met-beperking-MM</Link></div>
-                            <div className='text-lg'>Itch.io page: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://marnik-maes.itch.io/jumping-fox'}>https://marnik-maes.itch.io/jumping-fox</Link></div>
-
+                            <div className='text-lg text-left pb-5'>Github repo: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://github.com/Thomas-More-Digital-Innovation/2223-MOBI-009-Game-voor-kinderen-met-beperking-MM'}>https://github.com/Thomas-More-Digital-Innovation/2223-MOBI-009-Game-voor-kinderen-met-beperking-MM</Link></div>
+                            <div className='text-lg text-left'>Itch.io page: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://marnik-maes.itch.io/jumping-fox'}>https://marnik-maes.itch.io/jumping-fox</Link></div>
                         </div>
+                    </div>
+                    <div className='text-center py-10 md:text-right  md:pr-[100px]'>
+                        <Link href={'/Myprojects'} className='text-2xl font-Roboto font-semibold hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue'>Back to projects</Link>
                     </div>
                 </main>
                 <Footer/>
