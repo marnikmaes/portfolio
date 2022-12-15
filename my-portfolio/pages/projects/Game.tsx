@@ -34,6 +34,14 @@ function Game() {
                         <div className='w-[800px]'>
                             <div className='text-lg font-Roboto'>
                                 <div className='py-6 text-center md:text-left'>
+                                    <h1 className='text-4xl font-Roboto font-semibold'>Status</h1>
+                                </div>
+                                <p className='text-lg'>Finished
+                                </p>
+                            </div>
+
+                            <div className='text-lg font-Roboto'>
+                                <div className='py-6 text-center md:text-left'>
                                     <h1 className='text-4xl font-Roboto font-semibold'>About the project</h1>
                                 </div>
                                 <p className='text-lg'> For this project, I will be creating a game for children with disabilities. This means that the game has to be easy to play and very accessible.

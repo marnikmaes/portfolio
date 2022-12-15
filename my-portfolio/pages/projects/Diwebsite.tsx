@@ -31,6 +31,14 @@ function Diwebsite() {
                         </div>
 
                         <div className='w-[800px]'>
+                            <div className='text-lg font-Roboto'>
+                                <div className='py-6 text-center md:text-left'>
+                                    <h1 className='text-4xl font-Roboto font-semibold'>Status</h1>
+                                </div>
+                                <p className='text-lg'>Finished
+                                </p>
+                            </div>
+
                             <div className='py-6 text-center md:text-left'>
                                 <h1 className='text-4xl font-Roboto font-semibold'>About the project</h1>
                             </div>
