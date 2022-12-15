@@ -19,12 +19,12 @@ function Diwebsite() {
                 <main className="bg-[url('/images/endless-constellation.svg')] text-customWhite pb-[50px]">
                     <Nav/>
 
+                    <div className='text-center py-6'>
+                        <h1 className='text-5xl font-Roboto font-semibold'>Digital Innovation website</h1>
+                    </div>
+
                     <div className='flex flex-wrap justify-around px-10 py-10'>
                         <div>
-                            <div className='text-center py-6'>
-                                <h1 className='text-5xl font-Roboto font-semibold'>Digital Innovation website</h1>
-                            </div>
-
                             <Image className='object-contain rounded-2xl m-auto' src="/images/projects/diwebsite/DI-website.png" alt="website" width={800} height={800}/>
                             <br />
                             <Image className='object-contain rounded-2xl m-auto' src="/images/projects/diwebsite/DI-website-altcolors.png" alt="website" width={800} height={800}/>
@@ -32,7 +32,7 @@ function Diwebsite() {
 
                         <div className='w-[800px]'>
                             <div className='py-6 text-center md:text-left'>
-                                <h1 className='text-5xl font-Roboto font-semibold'>About the project</h1>
+                                <h1 className='text-4xl font-Roboto font-semibold'>About the project</h1>
                             </div>
                             <div className='text-lg font-Roboto w[300px]'>
                                 <p>For this project 2DI and 3DI came together to create a central Digital Innovation website.</p>
@@ -41,7 +41,7 @@ function Diwebsite() {
                             </div>
 
                             <div className='py-6 text-center md:text-left'>
-                                <h1 className='text-5xl font-Roboto font-semibold'>About the website</h1>
+                                <h1 className='text-4xl font-Roboto font-semibold'>About the website</h1>
                             </div>
 
                             <div className='text-lg font-Roboto'>
@@ -51,7 +51,7 @@ function Diwebsite() {
                             </div>
 
                             <div className='py-6 text-center md:text-left'>
-                                <h1 className='text-5xl font-Roboto font-semibold'>Used frameworks</h1>
+                                <h1 className='text-4xl font-Roboto font-semibold'>Used frameworks</h1>
                             </div>
                             
                             <div className='text-lg font-Roboto'>
@@ -72,7 +72,7 @@ function Diwebsite() {
 
                     <div className='w-fit m-auto px-10'>
                         <div className='text-center py-6'>
-                            <h1 className='text-5xl font-Roboto font-semibold'>Links</h1>
+                            <h1 className='text-4xl font-Roboto font-semibold'>Links</h1>
                         </div>
                         <div className='text-lg font-Roboto'>
                             Github repo: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://github.com/Thomas-More-Digital-Innovation/2223-Startproject-DinoWebsite'}>https://github.com/Thomas-More-Digital-Innovation/2223-Startproject-DinoWebsite</Link>
@@ -80,6 +80,12 @@ function Diwebsite() {
                         <div className='text-lg font-Roboto'>
                             DI website: <Link className='hover:text-waterBlue hover:underline hover:underline-offset-8 hover:decoration-towerBlue' href={'https://digitalinnovation.be/'}>https://digitalinnovation.be/</Link>
                         </div>
+                    </div>
+
+                    <div className='text-center md:text-right font-Roboto text-xl pt-[100px] md:pr-[100px]'>
+                        <Link href={'/Myprojects'} className="font-semibold py-2 px-4 border-[2px] rounded-full border-towerBlue w-[200px] bg-customWhite text-customBlack hover:bg-waterBlue hover:text-customWhite">
+                            Back to projects  
+                        </Link>
                     </div>
 
                 </main>
