@@ -41,7 +41,7 @@ function Myprojects(){
                             </div>
                         </Link>
 
-                        <Link href={'/'} className='bg-skyBlue rounded-xl p-5 hover:bg-waterBlue w-[1000px]'>
+                        <Link href={'/projects/Isolationcontrol'} className='bg-skyBlue rounded-xl p-5 hover:bg-waterBlue w-[1000px]'>
                             <div className='flex flex-wrap md:flex-nowrap justify-between items-center space-x-5 space-y-5'>
                                 <Image className='rounded-xl basis-2/6' src={'/images/projects/isolationcontrol/Isolation-control.png'} alt='Isolation control' width={400} height={400}></Image>
                                 <div className='basis-4/6'>
